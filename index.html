@@ -26,7 +26,7 @@
     
     #right {
         width: 440px;
-        background-color: aqua;
+        background-color: white;
     }
     
     #left {
@@ -337,6 +337,54 @@
     .body_last_2{
 
     }
+    .participants_class{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 45px;
+        margin-left: 14px;
+        
+    }
+    .participants_text{
+        display: flex;
+        align-items: center;
+
+    }
+    .participants_text_1{
+        
+    }
+    .participants_text_num{
+        padding: 4px 6px;
+        background-color: rgb(255 192 203 / 30%);
+        color: #c37885;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .participants_icon_text{
+  
+    }
+    .participants_add{ 
+        display: flex;
+
+  
+    }
+    .participants_add_border{
+        padding: 7px 11px;
+        color: red;
+        border: 1px solid red;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        display: flex;
+       
+    }
+    .participants_add_text_1{
+        margin: 0 8px 0 3px;
+        font-size: 27px;
+    }
+    .participants_add_text_2{
+        
+    }
 </style>
 
 <body>
@@ -457,7 +505,21 @@
                     </div>
                 </div>
             </div>
-            <div id="right">right</div>
+            <div id="right">
+                <div class="participants_class">
+                    <div class="participants_text">
+                        <h3 class="participants_text_1">Participants</h3>
+                        <span class="participants_text_num">4</span>
+                    </div>
+                    <div class="participants_add">
+                       <div class="participants_add_border">
+                        <div class="participants_add_text_1">+</div>
+                        <div class="participants_add_text_2">Add</div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+                
 
         </div>
 
